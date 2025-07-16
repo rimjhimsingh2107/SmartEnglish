@@ -24,7 +24,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FEF9C3', // soft yellow
+    backgroundColor: '#FEF9C3',
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 24,
@@ -32,17 +32,17 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: '#166534', // dark green
+    color: '#166534',
     marginBottom: 12,
   },
   subtitle: {
     fontSize: 16,
     textAlign: 'center',
-    color: '#14532D', // medium green
+    color: '#14532D',
     marginBottom: 32,
   },
   signInButton: {
-    backgroundColor: '#166534', // dark green
+    backgroundColor: '#166534',
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 12,
@@ -53,13 +53,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   signUpButton: {
-    backgroundColor: '#FACC15', // bright yellow
+    backgroundColor: '#FACC15',
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 12,
   },
   signUpText: {
-    color: '#14532D', // green text
+    color: '#14532D',
     fontWeight: 'bold',
     fontSize: 16,
   },

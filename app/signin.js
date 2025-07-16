@@ -30,16 +30,16 @@ export default function SignIn() {
         onChangeText={setPassword}
       />
 
-      {/* Sign In */}
+      {/* .... */}
       <TouchableOpacity style={styles.button} onPress={() => setRedirect(true)}>
         <Text style={styles.buttonText}>Sign In</Text>
       </TouchableOpacity>
 
-      {/* Forgot Password */}
-     <TouchableOpacity onPress={() => {/* add logic later */}}>
+      {/*...*/}
+     <TouchableOpacity onPress={() => {/* ......*/}}>
         <Text style={styles.linkText}>Forgot Password?</Text>
       </TouchableOpacity>
-      {/* Create Account */}
+      {/* ....*/}
       <TouchableOpacity onPress={() => router.push("/signup")}>
       <Text style={styles.createText}>Create Account</Text>
       </TouchableOpacity>
@@ -49,7 +49,7 @@ export default function SignIn() {
 
 const styles = StyleSheet.create({
   createText: {
-    color: "#CA8A04", // dark golden yellow
+    color: "#CA8A04",
     fontSize: 14,
     fontWeight: "600",
     textAlign: "center",

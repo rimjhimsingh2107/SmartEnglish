@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Profile() {
-  // Dummy data
+  
   const name = 'Rimjhim';
-  const progress = 70; // percentage of practice questions completed
+  const progress = 70;
   const avgScore = 85;
   const bestTopic = 'Grammar';
   const badges = ['Starter', 'Quiz Master'];

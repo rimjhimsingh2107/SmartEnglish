@@ -1,6 +1,6 @@
-// central place to hold questions for every sub-topic
+
 export const practiceBank = {
-    // key = "grammar-tenses"  (match the slug you created in router.push)
+
     "grammar": [
       { q: "She _____ to school every day.",  opts: ["go", "goes", "is going", "gone"],  ans: 1 },
       { q: "Right now they _____ football.",  opts: ["play", "played", "are playing", "plays"], ans: 2 },

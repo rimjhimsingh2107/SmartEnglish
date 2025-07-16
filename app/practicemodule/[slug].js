@@ -42,7 +42,6 @@ export default function PracticeQuiz() {
       setScore(score + 1);
       setFeedback("Correct!");
     } else {
-      // Add to wrong answers for repetition
       setWrongAnswers(prev => [...prev, currentQuestion]);
       setFeedback(`✗ Wrong!\n\n✓ Correct answer: ${currentQuestion.opts[currentQuestion.ans]}`);
     }
@@ -63,21 +62,21 @@ export default function PracticeQuiz() {
     if (current + 1 < questions.length) {
       setCurrent(current + 1);
     } else if (wrongAnswers.length > 0 && round === 1) {
-      // Start second round with ALL wrong answers
+  
       setQuestionOffset(originalQuestions.length);
       setQuestions([...wrongAnswers]);
       setCurrent(0);
       setWrongAnswers([]);
       setRound(2);
     } else if (wrongAnswers.length > 0 && round === 2) {
-      // If there are still wrong answers in round 2, repeat them again
+  
       setQuestionOffset(originalQuestions.length + (originalQuestions.length - wrongAnswers.length));
       setQuestions([...wrongAnswers]);
       setCurrent(0);
       setWrongAnswers([]);
       setRound(3);
     } else {
-      // Quiz complete - score out of total questions answered
+
       const finalScore = score + (isCorrect ? 1 : 0);
       const finalTotal = totalAnswered + (isCorrect ? 1 : 0);
       router.push({

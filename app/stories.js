@@ -65,11 +65,11 @@ export default function StoriesPage() {
   const getLevelColor = (level) => {
     switch (level) {
       case "Easy":
-        return "#15803D"; // green
+        return "#15803D";
       case "Medium":
-        return "#CA8A04"; // yellow
+        return "#CA8A04";
       case "Hard":
-        return "#DC2626"; // red
+        return "#DC2626";
       default:
         return "#000";
     }
@@ -77,7 +77,7 @@ export default function StoriesPage() {
 
   return (
     <View style={styles.container}>
-      {/* Top Back Button */}
+      {/* Back Button */}
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => router.push("/(tabs)/homepage")}
@@ -97,7 +97,7 @@ export default function StoriesPage() {
         </TouchableOpacity>
       </View>
 
-      {/* Story Viewer */}
+      {/* Story Viewer box */}
       {currentStory && (
         <View style={styles.playerOverlay}>
           <View style={styles.playerContainer}>
