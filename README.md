@@ -4,10 +4,10 @@ A comprehensive English learning mobile app built with React Native and Expo. In
 
 ##  Features
 
-- ** Practice Modules**: Grammar, Vocabulary, Listening with smart repetition
-- ** Interactive Quizzes**: Multiple choice questions with instant feedback
-- ** PDF Worksheets**: Downloadable practice materials
-- ** Progress Tracking**: Real-time scoring and performance analytics
+- Practice Modules: Grammar, Vocabulary, Listening with smart repetition
+- Interactive Quizzes: Multiple choice questions with instant feedback
+- PDF Worksheets: Downloadable practice materials
+- Progress Tracking: Real-time scoring and performance analytics
 
 ##  Tech Stack
 
