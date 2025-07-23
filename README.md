@@ -25,11 +25,7 @@ A comprehensive English learning mobile app built with React Native and Expo. In
   cd smartenglish
   npm install
 ```
-2. **Setup Firebase**
-- Create Firebase project
-- Add config to firebaseConfig.js
-  
-3. **Run App**
+2. **Run App**
  ```bash
 npx expo start
 ```
