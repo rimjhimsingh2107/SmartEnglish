@@ -1,6 +1,6 @@
 # SmartEnglish 📚
 
-A comprehensive English learning mobile app built with React Native and Expo. Interactive practice modules, quizzes, and worksheets to improve grammar, vocabulary, and listening skills.
+An English learning mobile app built for the students of SmartLife Trust foundation - a non profit that helps underprivileged children learn English. Built with React Native and Expo. Interactive practice modules, quizzes, worksheets and an AI chatbot to improve grammar, vocabulary, and listening skills.
 
 ##  Features
 
