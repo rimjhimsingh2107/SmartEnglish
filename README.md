@@ -29,4 +29,4 @@ A comprehensive English learning mobile app built with React Native and Expo. In
  ```bash
 npx expo start
 ```
-
+Made for students of SmartLife Trust Foundation
