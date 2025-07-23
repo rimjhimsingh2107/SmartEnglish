@@ -29,4 +29,4 @@ An English learning mobile app built for the students of SmartLife Trust foundat
  ```bash
 npx expo start
 ```
-Made for students of SmartLife Trust Foundation
+Made for students of SmartLife Trust Foundation 
